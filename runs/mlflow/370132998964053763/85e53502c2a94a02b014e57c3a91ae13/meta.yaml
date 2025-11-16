@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/mannr/projects/GitHub/Chokho AI/runs/mlflow/370132998964053763/85e53502c2a94a02b014e57c3a91ae13/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '370132998964053763'
+lifecycle_stage: active
+run_id: 85e53502c2a94a02b014e57c3a91ae13
+run_name: trash_model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763301075102
+status: 1
+tags: []
+user_id: mannr
