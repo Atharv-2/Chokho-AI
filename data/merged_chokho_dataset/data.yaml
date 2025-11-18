@@ -1,0 +1,12 @@
+names:
+- plastic
+- metal
+- paper
+- glass
+- organic
+- bin
+nc: 6
+path: C:\Users\mannr\projects\GitHub\Chokho AI\data\merged_chokho_dataset
+test: test/images
+train: train/images
+val: valid/images
