@@ -1,12 +1,6 @@
 from roboflow import Roboflow
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
-
-Roboflow_api_key = os.getenv("ROBOFLOW_API_KEY")
-
-rf = Roboflow(api_key=Roboflow_api_key)
+rf = Roboflow(api_key = "WlbcOGXr69ltE40RtlYZ")
 
 #1
 # project = rf.workspace("azat1").project("intelligentvision")
@@ -18,4 +12,13 @@ rf = Roboflow(api_key=Roboflow_api_key)
 # version = project.version(2)
 # dataset = version.download("yolov11")
 
-                
+#3
+# project = rf.workspace("datacluster-labs-agryi").project("domestic-trash")
+# version = project.version(1)
+# dataset = version.download("yolov11")
+
+
+#4
+# project = rf.workspace("smart-india-hackathon-2023").project("garbage_best")
+# version = project.version(1)
+# dataset = version.download("yolov11")

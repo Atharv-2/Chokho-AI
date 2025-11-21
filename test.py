@@ -1,5 +1,5 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/trash_model/weights/best.pt")
+model = YOLO("best.pt")
 
-model.predict(source= "1.webp",show = True , save = True)
+model.predict(source= "44.jpg",show = True , save = True)

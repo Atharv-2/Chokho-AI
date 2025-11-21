@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Domestic Trash Garbage', 'dw', 'trash']
+
+roboflow:
+  workspace: datacluster-labs-agryi
+  project: domestic-trash
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/datacluster-labs-agryi/domestic-trash/dataset/1
